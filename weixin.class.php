@@ -50,7 +50,7 @@ class Weixin
 		$newTplHeader = "<xml>
 			<ToUserName><![CDATA[{$this->msg['FromUserName']}]]></ToUserName>
 			<FromUserName><![CDATA[{$this->msg['ToUserName']}]]></FromUserName>
-			<CreateTime>{$time}</CreateTime>
+			<CreateTime>{$CreateTime}</CreateTime>
 			<MsgType><![CDATA[news]]></MsgType>
 			<Content><![CDATA[%s]]></Content>
 			<ArticleCount>%s</ArticleCount><Articles>";
